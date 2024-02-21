@@ -1,3 +1,3 @@
-const getFlagValue = require('./desafio1-flag');
+const getFlagValue = require('./flag');
 
 console.log(`Oi ${getFlagValue('--name')}. ${getFlagValue('--greating')}`);
